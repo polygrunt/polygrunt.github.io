@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-section {
+    width: 100%;
+    position: absolute;
+}
+
+.homepage-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.left-background-section {
+    background-color: #1E212D;
+    height: 100vh;
+}
+
+.left-background-image {
+    width: 100%;
+    height: 100vh;
+}
+
+.left-background-image img {
+    width: 80%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.right-background-section {
+    background-color: #262B3D;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.right-background-content {
+    position: absolute;
+    width: 100%;
+}
+
+.right-background-animation {
+    position: absolute;
+}
+
+.right-background-title {
+    font-size: 6em;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 900;
+    letter-spacing: -7px;
+}
+
+.right-background-subtitle {
+    font-size: 5em;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    letter-spacing: -7px;
+    margin-top: -40px;
+}
+
+.right-background-inside-content {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+    font-size: 0.9em;
+    letter-spacing: 1.5px;
+}
+
+.right-background-unity-button {
+    margin-top: 15%;
+}
+
+.unity-button {
+    border-radius: 50px;
+    border-style: solid;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    background-color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 7%;
+    font-size: 0.85em;
+    letter-spacing: 1.5px;
+    transition: all 0.5s ease-in-out;
+    z-index: 50;
+}
+
+.unity-button:hover {
+    border-radius: 50px;
+    border-style: solid;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    background-color: #414967;
+    border-color: #414967;
+    color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: 7%;
+    font-size: 0.85em;
+    letter-spacing: 1.5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.header-section {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    z-index: 23;
+}
+
+.header-section-scroll {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    z-index: 23;
+    background-color: rgba(246, 246, 246, 1);
+    transition: all 0.5s ease-in-out;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.header-section-content {
+    height: 100%;
+}
+
+.header {
+    width: 70%;
+}
+
+.header-list {}
+
+.header-items {
+    margin-left: 7%;
+    margin-right: 7%;
+    list-style-type: none;
+}
+
+.header-items a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 8px;
+    font-weight: 600;
+}
+
+.header-items a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+
+.header-items a:hover::after {
+    width: 100%;
+}
+
+.header-items-scroll {
+    color: black !important;
+    text-decoration: none;
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 8px;
+    font-weight: 600;
+}
+
+#circle1 {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+}
+
+#circle2 {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+}
+
+#circle3 {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+#circle4 {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+}
+
+#circle5 {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 2vh;
+    height: 2vh;
+    border-radius: 50%;
+}
+
+#circle1 {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 18vh;
+    height: 18vh;
+    border-radius: 50%;
+}
+
+.scroll-button {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.scroll-background {
+    z-index: 100;
+}
+
+.scroll-background img {
+    width: 39px;
+    height: auto;
+}
+
+.arrow {
+    position: absolute;
+}
+
+.arrow img {
+    width: 19px;
+    height: auto;
+    animation: shakeicon 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shakeicon {
+    0% {
+        -webkit-transform: translate(1px, 1px);
+    }
+    50% {
+        -webkit-transform: translate(1px, -5px);
+    }
+    100% {
+        -webkit-transform: translate(1px, 1px);
+    }
+}
+
+.worksection {
+    width: 100%;
+    margin-top: 20%;
+}
+
+.item-container {
+    width: 100%;
+    height: 100%;
+}
+
+.item-container a {
+    text-decoration: none;
+}
+
+.item-image {
+    overflow: hidden;
+}
+
+.item-container a:hover>.item-image img {
+    filter: grayscale();
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.item-image img {
+    width: 100%;
+    height: auto;
+}
+
+.item-name {
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 8px;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #717171;
+    cursor: pointer;
+}
+
+.aboutsection {
+    width: 100%;
+    height: 100vh;
+    margin-top: 20%;
+}
+
+.about-title {
+    font-family: 'Overpass', sans-serif;
+    font-size: 4.5em;
+    font-weight: 900;
+    letter-spacing: -2px;
+    color: #616161;
+}
+
+.about-content {
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.2em;
+    font-weight: 100;
+    padding-right: 10%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    border-right: 1px solid black;
+    margin-top: 15%;
+}
+
+.about-background {
+    position: absolute;
+}
+
+.about-man-image {
+    position: absolute;
+}
+
+.contactsection {
+    width: 100%;
+    height: 80vh;
+    margin-top: 10%;
+    overflow-x: hidden;
+}
+
+.contact-title {
+    font-family: 'Overpass', sans-serif;
+    font-size: 3.2em;
+    font-weight: 900;
+    letter-spacing: -3px;
+    color: #616161;
+}
+
+.contact-form {
+    width: 80%;
+    box-shadow: 6px 6px 12px rgb(207, 207, 207);
+}
+
+.contact-form input {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 100;
+}
+
+.message textarea {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 100;
+}
+
+.submit-area input {
+    width: 70%;
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border-radius: 50px;
+    background-color: #FFCA70;
+    color: white;
+    border-style: solid;
+    border-color: #FFCA70;
+    transition: all 0.5s ease-in-out;
+}
+
+.submit-area input:hover {
+    width: 75%;
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border-radius: 50px;
+    background-color: rgb(145, 255, 112);
+    color: white;
+    border-style: solid;
+    border-color: rgb(145, 255, 112);
+    transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 1000px) {
+    .homepage-section {
+        position: relative;
+        width: 100%;
+        height: 200vh;
+    }
+    .about-right-side {
+        height: 50vh;
+    }
+    .scroll-button {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+    }
+    .header {
+        display: none;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+    .logo img {
+        width: 70%;
+    }
+}
